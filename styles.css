@@ -1,3 +1,28 @@
 body {
-  background: green;
+  background: black;
+  color: white;
 }
+ a {
+   color: lightblue;
+   text-decoration: none;
+ }
+
+a:hover {
+  color: black;
+  background: white;
+}
+
+h1 {
+  font-family: monospace;
+}
+
+.indent {
+  margin-left: 10px;
+}
+ .gap-below {
+   margin-bottom: 25px;
+ }
+ .greenlink:hover {
+   color: green;
+   background: gray;
+ }
